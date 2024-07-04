@@ -30,7 +30,11 @@
 .name-and-score {
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+.education-score {
   text-align: right;
+  min-width: 6rem;
 }
 
 .education-score {

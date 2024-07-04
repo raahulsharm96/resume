@@ -1,33 +1,27 @@
 {
   "header": {
-    "name": "Shashank Sharma",
-    "role": "Specialist Programmer at Infosys",
+    "name": "Rahul Sharma",
+    "role": "DevOps Engineer",
     "overallExperience": {
-      "startDate": "Oct 01, 2018",
+      "startDate": "Mar 01, 2022",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with over {{experience}} of experience in React, Angular, MFE, JavaScript, etc. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "bio": "DevOps engineer with {{experience}} in CI/CD Integration, Docker, K8s and python. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success.",
     "isBioVisible": true,
     "contact": [
       {
         "type": "email",
-        "value": "shashank.ns67@gmail.com",
+        "value": "rahulvohara96@gmail.com",
         "isHidden": false,
         "icon": "email"
       }, {
         "type": "phone",
         "value": "",
-        "isHidden": true,
+        "isHidden": false,
         "icon": "phone"
       }, {
-        "type": "website",
-        "value": "Resume",
-        "isHidden": false,
-        "icon": "website",
-        "link": "https://geekyorion.github.io/resume"
-      }, {
         "type": "address",
-        "value": "Hyderabad, Telangana",
+        "value": "Gurugram, Haryana",
         "isHidden": false,
         "icon": "address"
       }
@@ -35,50 +29,19 @@
     "links": [
       {
         "type": "GitHub",
-        "value": "https://github.com/geekyorion",
+        "value": "https://github.com/devraahulsharma",
         "isHidden": false,
         "icon": "github"
       }, {
         "type": "LinkedIn",
-        "value": "https://linkedin.com/in/geekyorion",
+        "value": "https://linkedin.com/in/devraahulsharma",
         "isHidden": false,
         "icon": "linkedin"
-      }, {
-        "type": "HackerRank",
-        "value": "https://hackerrank.com/geekyorion",
-        "isHidden": false,
-        "icon": "hackerrank"
-      }, {
-        "type": "Medium",
-        "value": "https://geekyorion.medium.com/",
-        "isHidden": false,
-        "icon": "medium"
-      }, {
-        "type": "NPM",
-        "value": "https://npmjs.com/~geekyorion",
-        "isHidden": false,
-        "icon": "npm",
-        "iconClass": "scaled-up-icon"
-      }, {
-        "type": "NPX Card",
-        "value": "https://www.npmjs.com/package/geekyorion",
-        "isHidden": false,
-        "icon": "terminal"
-      }, {
-        "type": "Twitter",
-        "value": "https://twitter.com/geekyorion_",
-        "isHidden": true,
-        "icon": "twitter"
-      }, {
-        "type": "Leetcode",
-        "value": "https://twitter.com/geekyorion_",
-        "isHidden": true,
-        "icon": "leetcode"
       }
     ],
     "image": {
       "imageName": "profile.jpeg",
-      "showImage": true
+      "showImage": false
     },
     "badges": {
       "isHidden": true,
@@ -90,86 +53,90 @@
   },
   "experience": [
     {
-      "company": "Infosys Ltd",
+      "company": "Datopic",
       "duration": {
-        "from": "21 May, 2018",
+        "from": "12 June, 2023",
         "to": "present"
       },
-      "location": "Hyderabad, Telangana",
+      "location": "Noida, UP",
       "work": [
         {
-          "role": "Specialist Programmer",
+          "role": "Associate Software Engineer",
           "duration": {
-            "from": "1 Jul, 2020",
+            "from": "12 June, 2023",
             "to": "present"
           },
+          "description": [
+            "Developed and maintained CI/CD pipelines with Jenkins for automated build, test, and deployment",
+            "Automated infrastructure provisioning and management using Terraform and Ansible",
+            "Managed Kubernetes (K8s) clusters for scalable and efficient application deployments",
+            "Implemented monitoring and logging with Prometheus and Grafana; handled DataBase Administration and data migration for optimized performance"
+          ],
+          "showDescription": true,
           "projects": [
             {
-              "name": "Citizens Bank",
-              "technologies": ["Angular", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
+              "name": "DataOps",
+              "technologies": ["DataOps.live", "Docker", "Git", "Bash", "DBT", "SnowFlake", "SOLE Generator", "AWS"],
               "responsibilities": [
-                "Migrated monolithic frontend application to Micro Frontend using Single SPA and Module Federation",
-                "Decreased the overall build time by 60%",
-                "Created in browser module for robust communication in between MFEs",
-                "Internal ng-library to provide modularity to reuse the code"
+                "Used DataOps.live, Git, and Bash to automate data pipelines. Integrated DBT for transformations and SnowFlake for cloud warehousing",
+                "Containerized applications with Docker and managed AWS deployments. Used SOLE Generator for cloud infrastructure setup and scaling",
+                "Set up Jenkins for CI/CD pipelines to automate builds and deployments, incorporating monitoring tools for system reliability"
               ]
             },
             {
-              "name": "Allstate (CEME)",
-              "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins", "Datadog"],
+              "name": "Noaris Dashboard",
+              "technologies": ["Python", "Fast API", "Pytest", "Elastic Search"],
               "responsibilities": [
-                "Eureka award for developing the standalone webapp to generate the auth token",
-                "Created dynamic UI to handle data directly from backend (logicless UI)"
+                "Developed RESTful APIs using FastAPI for high-performance web services, leveraging Python for backend logic",
+                "Implemented automated tests with Pytest to ensure code quality and reliability, achieving comprehensive test coverage",
+                "Integrated Elasticsearch for robust search capabilities, enabling efficient querying and real-time data indexing"
               ]
             },
             {
-              "name": "Kraft Heinz",
-              "technologies": ["Angular", "Git", "Azure"],
+              "name": "Qopla Application",
+              "technologies": ["K8s", "Terraform", "MySQL", "Bitbucket", "Vault", "Docker", "Grafana"],
               "responsibilities": [
-                "Awarded as the best young developer for the web app development",
-                "Boosted user experience scores by 55% over company-wide previous best for sales team",
-                "Completed 3 web apps to manage the high sensitive sales data"
-              ]
-            },
-            {
-              "name": "Airbus",
-              "technologies": ["React", "Git", "ExpressJS"],
-              "responsibilities": [
-                "Developed a robust react application to manage millions of entries",
-                "Provided web accessibility to enhance user experience",
-                "Created a light weight express server to perform internal operations"
+                "Used Terraform to automate the provisioning of K8s clusters and MySQL databases, ensuring consistent and scalable environments",
+                "Implemented CI/CD pipelines in Bitbucket for automated Docker container builds and deployments to K8s clusters, enhancing deployment efficiency",
+                "Configured Grafana for real-time monitoring and integrated HashiCorp Vault for secure management of sensitive data and secrets"
               ]
             }
-          ],
-          "description": [
-            "Developed well designed, testable, efficient code by using best software development practices",
-            "Managed the modularity of the application to reduce the redundancy of the code",
-            "Participated in internal hackathons and interview activities"
-          ],
-          "showDescription": true
-        },
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Bharat Menpower Solution",
+      "duration": {
+        "from": "Mar 01, 2022",
+        "to": "Jun 23, 2023"
+      },
+      "location": "Jaipur, Rajasthan",
+      "work": [
         {
           "role": "Systems Engineer",
           "duration": {
-            "from": "01 Oct, 2018",
-            "to": "30 Jun, 2020"
+            "from": "Mar 01, 2022",
+            "to": "Jun 23, 2023"
           },
+          "description": [
+            "Developed and maintained web front-end using HTML and CSS",
+            "Created and tested APIs using Flask, ensuring reliable backend services",
+            "Implemented automated monitoring solutions with New Relic and BlazeMeter, improving system reliability and performance",
+            "Conducted thorough testing to ensure application functionality and performance"
+          ],
+          "showDescription": true,
           "projects": [
             {
-              "name": "Apple",
-              "technologies": ["React", "ReconJS", "Mustache", "SCSS", "GIT"],
+              "name": "Reporting dashboard",
+              "technologies": ["HTML", "CSS", "Python", "Flask", "Git", "Github", "Bootstrap"],
               "responsibilities": [
-                "Provided web accessibility to enhance user experience",
-                "Upgraded existing web components to latest stack with new features",
-                "Providing optimized solutions for performance"
+                "Developed a dynamic reporting dashboard using Python with Flask, HTML, CSS, and Bootstrap to visualize and analyze data effectively",
+                "Implemented version control and collaboration using Git and GitHub, ensuring seamless team workflow and project management",
+                "Designed responsive user interfaces with Bootstrap, enhancing accessibility and user experience across different devices"
               ]
             }
-          ],
-          "description": [
-            "Enhanced and maintained web accessibility across various web apps while enhancing the user experience",
-            "Upgraded existing web app to available newer stack as per the standards"
-          ],
-          "showDescription": true
+          ]
         }
       ]
     }
@@ -177,9 +144,9 @@
   "education": [
     {
       "type": "Graduation",
-      "degree": "B.Tech.",
-      "school": "Poornima Group of Institutions, Jaipur",
-      "score": "78.93% (Hons.)",
+      "degree": "B.Tech. (ECE)",
+      "school": "Poornima College of Engineering, Jaipur",
+      "score": "53.9%",
       "isHidden": false,
       "duration": {
         "from": "July, 2014",
@@ -189,163 +156,29 @@
     }, {
       "type": "Senior Secondary",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
-      "score": "75.6%",
-      "isHidden": true,
+      "school": "Abhas Sr. Sec. School, Jaipur, Rajasthan",
+      "score": "62%",
+      "isHidden": false,
       "duration": {
         "from": "Jun, 2012",
         "to": "May, 2013"
       },
       "isGraduation": false
-    }, {
-      "type": "Secondary",
-      "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
-      "score": "79.0%",
-      "isHidden": true,
-      "duration": {
-        "from": "July, 2010",
-        "to": "Jun, 2011"
-      },
-      "isGraduation": false
     }
   ],
   "projects": [
-    {
-      "name": "Dev Social Media",
-      "technologies": ["MERN", "Git", "Redux", "Heroku"],
-      "desc": "A social platform where developers can connect, post and handle their profiles",
-      "link": "https://geekyorion.github.io/devSocialMedia/",
-      "isHidden": false
-    }, {
-      "name": "Gradient Code",
-      "technologies": ["React", "CSS3", "HTML5 Canvas"],
-      "desc": "A web app to create, save, edit and download the gradients",
-      "link": "https://geekyorion.github.io/gradient_code/",
-      "isHidden": false
-    }, {
-      "name": "Libraries",
-      "technologies": ["JavaScript", "React", "Chalk", "Boxen"],
-      "desc": "Published libraries on NPM",
-      "link": "https://npmjs.com/~geekyorion/",
-      "isHidden": true
-    }, {
-      "name": "FreeCodeCamp",
-      "technologies": ["React", "JavaScript", "CSS3", "HTML5 Canvas"],
-      "desc": "10 small projects based on certification",
-      "link": "https://geekyorion.github.io/freecodecamp/",
-      "isHidden": false
-    }
   ],
   "others": {
     "achievements": [
-      "Won the most valuable coder for the project (Kraft Heinz)",
-      "Won Infosys awards for most valuable player",
-      "Participated and qualified to the finale round of Smart India Hackathon"
+      "Received appreciation for dynamic API checker tool",
+      "Got certificate for robo soccor in IIT Jodhpur"
     ],
     "certificates": [
       {
-        "org": "FreeCodeCamp",
-        "name": "Responsive Web Design, DSA using JS, FE libraries",
+        "org": "Ducat",
+        "name": "Python Backend Devloper",
         "valid": {
-          "from": "Feb 28, 2021",
-          "to": "Present"
-        },
-        "link": "https://freecodecamp.org/geekyorion",
-        "containsSub": true,
-        "shouldShowSubs": false,
-        "subs": [
-          {
-            "name": "Front End Development Libraries",
-            "link": "https://www.freecodecamp.org/certification/geekyorion/front-end-development-libraries",
-            "issuedOn": "July 11, 2021"
-          },
-          {
-            "name": "JavaScript Algorithms and Data Structures",
-            "link": "https://www.freecodecamp.org/certification/geekyorion/javascript-algorithms-and-data-structures",
-            "issuedOn": "March 20, 2021"
-          },
-          {
-            "name": "Responsive Web Design",
-            "link": "https://freecodecamp.org/certification/geekyorion/responsive-web-design",
-            "issuedOn": "Feb 28, 2021"
-          }
-        ]
-      },
-      {
-        "org": "HackerRank",
-        "name": "JS, React, Angular, Node, Python, etc.",
-        "valid": {
-          "from": "Sep 10, 2020",
-          "to": "Present",
-          "showCurrent": true
-        },
-        "link": "https://hackerrank.com/geekyorion",
-        "containsSub": true,
-        "shouldShowSubs": false,
-        "subs": [
-          {
-            "name": "Angular (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/e9ad142919e4",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Angular (Basic)",
-            "link": "https://www.hackerrank.com/certificates/899b61d8697d",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Node (Basic)",
-            "link": "https://www.hackerrank.com/certificates/3e1d26024edd",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Rest API (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/ecb0c3c46444",
-            "issuedOn": "Nov 02, 2021"
-          },
-          {
-            "name": "React (Basic)",
-            "link": "https://www.hackerrank.com/certificates/b5c15060f567",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "JavaScript (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/44f6fbed0bcd",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "JavaScript (Basic)",
-            "link": "https://www.hackerrank.com/certificates/dca875bb6044",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "Problem Solving (Basic)",
-            "link": "https://www.hackerrank.com/certificates/69d80d724f79",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "CSS",
-            "link": "https://www.hackerrank.com/certificates/118b639cb589",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "Python (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/29419a5ae278",
-            "issuedOn": "Sep 11, 2020"
-          },
-          {
-            "name": "Python (Basic)",
-            "link": "https://www.hackerrank.com/certificates/cb508b587b64",
-            "issuedOn": "Sep 10, 2020"
-          }
-        ]
-      },
-      {
-        "org": "Microsoft",
-        "name": "Microsoft 70-480: Programming in HTML5 with JavaScript and CSS3",
-        "valid": {
-          "from": "Jun 04, 2019",
+          "from": "Mar 01, 2022",
           "to": "Present"
         },
         "link": null,
@@ -356,48 +189,71 @@
     ],
     "skills": [
       {
-        "rating": 5,
-        "technologies": ["React", "JS", "Angular", "CSS", "HTML"],
-        "info": "Excellent"
+        "heading": "CI/CD",
+        "skills": ["Gitlab", "Jenkins"]
       },
       {
-        "rating": 4,
-        "technologies": ["Express", "Git", "version1", "ThreeJS"],
-        "info": "Very Good"
+        "heading": "Container technologies",
+        "skills": ["Kubernetes", "Docker"]
       },
       {
-        "rating": 3,
-        "technologies": ["NodeJS", "MongoDB", "SQL", "Jenkins"],
-        "info": "Good"
+        "heading": "Configuration Management",
+        "skills": ["Ansible"]
+      },
+      {
+        "heading": "Scripting",
+        "skills": ["Python", "Bash"]
+      },
+      {
+        "heading": "Monitoring & Logging",
+        "skills": ["Grafana", "Prometheus", "ELK"]
+      },
+      {
+        "heading": "DevOps Tools",
+        "skills": ["Git", "Flask"]
+      },
+      {
+        "heading": "Infrastructure As Code",
+        "skills": ["Terraform"]
+      },
+      {
+        "heading": "Cloud Computing",
+        "skills": ["Aws"]
+      },
+      {
+        "heading": "Database Administration ",
+        "skills": ["PostgreSQL", "Snowflake"]
+      },
+      {
+        "heading": "Operating Systems",
+        "skills": ["Linux"]
       }
     ],
     "softwares": [
-      "Figma",
+      "Pycharm",
       "VSCode",
       "Git",
       "Jira",
-      "Bootstrap Studio",
       "Ubuntu",
       "etc."
     ],
-    "interests": ["Chess (Aiming for FIDE Rated player)", "Sudoku", "LoFi Music"],
+    "interests": [],
     "languages": [
       { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
-      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" },
-      { "language": "Spanish", "rating": 1, "info": "Elementary Proficiency" }
+      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" }
     ],
     "showOnly": {
-      "achievements": false,
+      "achievements": true,
       "certificates": true,
       "skills": true,
       "softwares": true,
       "interests": false,
-      "languages": false
+      "languages": true
     }
   },
   "footer": {
     "info": "Created using ReactJS, Please visit: ",
-    "link": "https://geekyorion.com",
+    "link": "https://devraahulsharma.github.io/resume",
     "isHidden": false
   },
   "consent": {

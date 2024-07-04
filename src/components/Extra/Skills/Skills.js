@@ -7,7 +7,7 @@ const Skills = ({ data }) => {
   return (
     <div className="skills-wrapper">
       <h3 className="section-heading sub-comp-header">Skills</h3>
-      <div className="skills-scales">
+      {/* <div className="skills-scales">
         {new Array(6).fill(null).map((_, index) => (
           <div className="skills-scale" key={`scale-${index}`}></div>
         ))}
@@ -22,6 +22,14 @@ const Skills = ({ data }) => {
             <div className="skill-meter">
               <div className="skill-width" style={{ width: `${(skill.rating / 5) * 100}%` }}></div>
             </div>
+          </div>
+        ))}
+      </div> */}
+      <div className="skill-mapper">
+        {skills.map((skill, index) => (
+          <div className="skill-wrapper" key={`skill-${index}`}>
+            <span className="skill-heading">{skill.heading}:</span>
+            <span className="skills-arr">{skill.skills.join(', ')}</span>
           </div>
         ))}
       </div>
