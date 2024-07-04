@@ -17,7 +17,7 @@
       }, {
         "type": "phone",
         "value": "",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "phone"
       }, {
         "type": "address",
