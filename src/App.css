@@ -8,6 +8,10 @@
   width: 793.7007874px;
   height: 1122.519685px;
 }
+.wrapper.size-A3 {
+  width: 1123px;
+  height: 1587px;
+}
 
 .wrapper.height-auto {
   height: auto;

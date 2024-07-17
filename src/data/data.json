@@ -16,7 +16,7 @@
         "icon": "email"
       }, {
         "type": "phone",
-        "value": "+91-86194 22214",
+        "value": "+91-8619",
         "isHidden": false,
         "icon": "phone"
       }, {
@@ -79,8 +79,7 @@
               "technologies": ["DataOps.live", "Docker", "Git", "Bash", "DBT", "SnowFlake", "SOLE Generator", "AWS"],
               "responsibilities": [
                 "Used DataOps.live, Git, and Bash to automate data pipelines. Integrated DBT for transformations and SnowFlake for cloud warehousing",
-                "Containerized applications with Docker and managed AWS deployments. Used SOLE Generator for cloud infrastructure setup and scaling"
-                
+                "Containerized applications with Docker and managed AWS deployments. Used SOLE Generator for cloud infrastructure setup and scaling"                
               ]
             },
             {
