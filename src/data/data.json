@@ -56,7 +56,7 @@
       "company": "Datopic",
       "duration": {
         "from": "12 June, 2023",
-        "to": "present"
+        "to": "21 June, 2024"
       },
       "location": "Noida, UP",
       "work": [
@@ -84,10 +84,11 @@
             },
             {
               "name": "Noaris Dashboard",
-              "technologies": ["Python", "Fast API", "Pytest", "Elastic Search"],
+              "technologies": ["Python", "Fast API", "Pytest","Maven", "Elastic Search", "AWS CDK"],
               "responsibilities": [
                 "Developed RESTful APIs using FastAPI for high-performance web services, leveraging Python for backend logic",
                 "Implemented automated tests with Pytest to ensure code quality and reliability, achieving comprehensive test coverage",
+                "Provision cloud application resources using AWS CDK"
                 "Integrated Elasticsearch for robust search capabilities, enabling efficient querying and real-time data indexing"
               ]
             },
