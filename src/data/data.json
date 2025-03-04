@@ -6,7 +6,7 @@
       "startDate": "Mar 01, 2022",
       "replacer": "{{experience}}"
     },
-    "bio": "DevOps engineer with {{experience}} in CI/CD Integration, Docker, K8s and python. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success.",
+    "bio": "DevOps engineer with 2.3 years of experience in CI/CD Integration, Docker, K8s and python. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success.",
     "isBioVisible": true,
     "contact": [
       {
@@ -16,7 +16,7 @@
         "icon": "email"
       }, {
         "type": "phone",
-        "value": "+91-8619",
+        "value": "+91-8619422214",
         "isHidden": false,
         "icon": "phone"
       }, {
@@ -53,6 +53,40 @@
   },
   "experience": [
     {
+      "company": "FLASK IT",
+      "duration": {
+        "from": "7 Aug, 2024",
+        "to": "Present"
+      },
+      "location": "Jaipur, Rajasthan",
+      "work": [
+        {
+          "role": "Software Engineer",
+          "duration": {
+            "from": "7 Aug, 2024",
+            "to": "Present"
+          },
+          "description": [
+            "Developed a cloud-based SaaS platform with business tools (CRM, document management, finance, HR, analytics) using microservices architecture. Ensured scalability, high availability, and seamless integration across tools. Implemented DevOps practices for automation, CI/CD, and monitoring to deliver features rapidly and securely."
+          ],
+          "showDescription": true,
+          "projects": [
+            {
+              "name": "BPM",
+              "technologies": ["Docker", "Jankins", "Kubernetes", "Git", "Bash", "SnowFlake", "AWS"],
+              "responsibilities": [
+                "Automated infrastructure with Terraform/Ansible on AWS",
+                "Built CI/CD pipelines using Jenkins for zero-downtime deployments",
+                "Set up monitoring (Prometheus/Grafana) and logging (ELK Stack)",
+                "Enforced security via IAM, VPCs, and vulnerability scans",
+                "Optimized cloud costs with auto-scaling and spot instances, Collaborated using Git, Jira, and Confluence."                
+              ]
+            }
+          ]
+        }
+      ]
+    },    
+    {
       "company": "Datopic",
       "duration": {
         "from": "12 June, 2023",
@@ -64,7 +98,7 @@
           "role": "Associate Software Engineer",
           "duration": {
             "from": "12 June, 2023",
-            "to": "present"
+            "to": "15 June, 2024"
           },
           "description": [
             "Developed and maintained CI/CD pipelines with Jenkins for automated build, test, and deployment",
@@ -88,7 +122,7 @@
               "responsibilities": [
                 "Developed RESTful APIs using FastAPI for high-performance web services, leveraging Python for backend logic",
                 "Implemented automated tests with Pytest to ensure code quality and reliability, achieving comprehensive test coverage",
-                "Provision cloud application resources using AWS CDK"
+                "Provision cloud application resources using AWS CDK",
                 "Integrated Elasticsearch for robust search capabilities, enabling efficient querying and real-time data indexing"
               ]
             },

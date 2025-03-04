@@ -9,8 +9,7 @@ const Header = ({ data }) => {
 
   // fetch the current profile picture name [user can save more than one]
   const headerImage = headerState.image?.showImage
-    ? require(`../../assets/images/${headerState.image.imageName}`)
-    : '';
+    ? '' : '';
 
   const getBio = (bio, experienceDates) => {
     return bio.replace(
